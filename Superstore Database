@@ -1,0 +1,26 @@
+select sum(price)
+from superstore;
+
+select max(price)
+from superstore;
+
+select sum(price),item_name
+from superstore
+group by item_name;
+
+select avg(price)
+from superstore;
+
+select avg(price),item_name
+from superstore
+group by item_name;
+
+select count(stock_quantity)
+from superstore;
+
+select count(stock_quantity),item_name
+from superstore
+group by item_name;
+
+select min(price)
+from superstore;
