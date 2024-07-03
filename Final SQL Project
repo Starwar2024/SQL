@@ -1,0 +1,15 @@
+#1. Show Customers who are not in the US. 
+
+SELECT FirstName, LastName, CustomerId, Country 
+FROM chinook.customers 
+WHERE Country != "USA";
+
+#2. Show only the Customers from Brazil.
+
+SELECT * FROM chinook.customers 
+WHERE Country = "Brazil" ;
+
+#3. Find the Invoices of customers who are from Brazil. 
+
+SELECT * FROM chinook.Employees
+WHERE Title = "Sales Support Agent" ;
